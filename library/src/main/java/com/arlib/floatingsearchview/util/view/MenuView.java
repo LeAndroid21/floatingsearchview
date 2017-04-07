@@ -209,6 +209,7 @@ public class MenuView extends LinearLayout {
 
                             if (mMenuCallback != null) {
                                 mMenuCallback.onMenuItemSelected(mMenuBuilder, menuItem);
+                                mMenuPopupHelper.show();
                             }
                         }
                     });
